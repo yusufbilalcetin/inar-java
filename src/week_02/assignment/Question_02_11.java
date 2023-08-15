@@ -9,7 +9,8 @@ public class Question_02_11 {
         int numberOfyears = input.nextInt();
 
         int currentPopulation = 312032486;
-        int numberOfChangeAfterInYears = (365 * 24 * 60 * 60 / 7) + (365 * 24 * 60 * 60 / 45)
+        int numberOfChangeAfterInYears = (365 * 24 * 60 * 60 / 7)
+                + (365 * 24 * 60 * 60 / 45)
                 - (365 * 24 * 60 * 60 / 13);
 
         int totalOfPopulationAfterYears = numberOfChangeAfterInYears * numberOfyears ;
