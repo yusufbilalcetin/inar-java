@@ -14,7 +14,8 @@ public class Question_02_17 {
 
         double wind = input.nextDouble();
 
-        double widndChill = 35.74 + 0.6215 * temperature - 35.75 * Math.pow(wind, 0.16) + 0.4275 * temperature * Math.pow(wind, 0.16);
+        double widndChill = 35.74 + 0.6215 * temperature - 35.75 * Math.pow(wind, 0.16)
+                + 0.4275 * temperature * Math.pow(wind, 0.16);
 
         System.out.println("The wind chill index is " + (int)(widndChill * 10000) / 10000.0);
 
