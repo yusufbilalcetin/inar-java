@@ -11,8 +11,8 @@ public class InterviewQuestion {
 
         x = y + x;
 
-        System.out.println("x of value is " + x );
-        System.out.println("y of value is " + y );
+        System.out.println("The value of x is  " + x );
+        System.out.println("The value of y is  " + y );
 
 
 
