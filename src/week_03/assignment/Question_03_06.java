@@ -18,17 +18,17 @@ public class Question_03_06 {
         final double METERS_PER_INCH = 0.0254;
 
         double weightInkilograms = weight * KILOGRAMS_PER_POUNDS;
-        double heightInMeters = inches * METERS_PER_INCH;
+        double heightInMeters = (inches + feet * 12) * METERS_PER_INCH;
         double bmi = weightInkilograms / (heightInMeters * heightInMeters);
 
         System.out.println("BMI is " + bmi);
         if (bmi < 18.5) {
             System.out.println("underweight");
-        }if (bmi < 25) {
+        } else if (bmi < 25) {
             System.out.println("normal");
-        }if (bmi < 30) {
+        } else if (bmi < 30) {
             System.out.println("overweight");
-        }else {
+        } else {
             System.out.println("obese");
         }
     }
