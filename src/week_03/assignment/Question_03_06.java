@@ -18,7 +18,7 @@ public class Question_03_06 {
         final double METERS_PER_INCH = 0.0254;
 
         double weightInkilograms = weight * KILOGRAMS_PER_POUNDS;
-        double heightInMeters = feet * METERS_PER_INCH;
+        double heightInMeters = inches * METERS_PER_INCH;
         double bmi = weightInkilograms / (heightInMeters * heightInMeters);
 
         System.out.println("BMI is " + bmi);
