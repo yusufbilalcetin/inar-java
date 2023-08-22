@@ -15,7 +15,7 @@ public class Question_03_09 {
         number = number / 10;
 
         int d7 = number % 10;
-        number = number / 10;,
+        number = number / 10;
 
         int d6 = number % 10;
         number = number / 10;
@@ -31,7 +31,7 @@ public class Question_03_09 {
 
         int d2 = number % 10;
         number = number / 10;
-        
+
         int d1 = number % 10;
         number = number / 10;
 
