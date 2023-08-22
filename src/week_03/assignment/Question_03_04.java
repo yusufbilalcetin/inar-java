@@ -37,7 +37,6 @@ public class Question_03_04 {
             System.out.println(number1);
             System.out.println("September");
         } else if (number1 == 10) {
-            ;
             System.out.println(number1);
             System.out.println("October");
         } else if (number1 == 11) {
