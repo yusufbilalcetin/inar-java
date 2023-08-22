@@ -18,8 +18,8 @@ public class Question_03_03 {
         if ( (a * d) - (b * c) == 0) {
             System.out.println("the equation has no solution ");
         }else {
-            x = ( (e * d) - (b * c) ) / ( (a * d) - (b * c) );
-            y = ( (a * d) - (e * c) ) / ( (a * d) - (b * c) );
+            x = ( (e * d) - (b * f) ) / ( (a * d) - (b * c) );
+            y = ( (a * f) - (e * c) ) / ( (a * d) - (b * c) );
             System.out.println("x is " + x + " and y is " + y);
             }
         }
