@@ -35,17 +35,20 @@ public class Question_03_07 {
             System.out.println(numberOfQuarters + " Quarters");
         } else {
             System.out.println(numberOfQuarters + " Quarter");
-        }if (numberOfDimes > 1){
+        }
+        if (numberOfDimes > 1) {
             System.out.println(numberOfDimes + " Dimes");
-        }else {
+        } else {
             System.out.println(numberOfDimes + " Dime");
-        }if (numberOfNickels > 1) {
+        }
+        if (numberOfNickels > 1) {
             System.out.println(numberOfNickels + " Nickels");
-        }else {
+        } else {
             System.out.println(numberOfNickels + " Nickel");
-        }if(numberOfPennies > 1){
+        }
+        if (numberOfPennies > 1) {
             System.out.println(numberOfPennies + " Pennies");
-        }else {
+        } else {
             System.out.println(numberOfPennies + " Pennie");
         }
     }

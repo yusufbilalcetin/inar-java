@@ -10,20 +10,28 @@ public class Question_03_09 {
 
         int d9 = number % 10;
         number = number / 10;
+
         int d8 = number % 10;
         number = number / 10;
+
         int d7 = number % 10;
-        number = number / 10;
+        number = number / 10;,
+
         int d6 = number % 10;
         number = number / 10;
+
         int d5 = number % 10;
         number = number / 10;
+
         int d4 = number % 10;
         number = number / 10;
+
         int d3 = number % 10;
         number = number / 10;
+
         int d2 = number % 10;
         number = number / 10;
+        
         int d1 = number % 10;
         number = number / 10;
 
