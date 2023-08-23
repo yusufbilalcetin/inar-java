@@ -59,12 +59,12 @@ public class Question_03_11 {
                 System.out.println("November " + year + " had " + daysInMonths + " days");
                 break;
             case 2:
-                if ((year % 4 == 0 && year % 100 != 0) || (year % 400 == 0)) {
+                if ((year % 4 == 0 && year % 100 != 0) || ( year % 400 == 0)){
                     daysInMonths = 29;
-                    System.out.println("January " + year + " had " + daysInMonths + " days");
+                    System.out.println("February " + year + " had " + daysInMonths + " days");
                 } else {
                     daysInMonths = 28;
-                    System.out.println("January " + year + " had " + daysInMonths + " days");
+                    System.out.println("February " + year + " had " + daysInMonths + " days");
                 }
                 break;
 
