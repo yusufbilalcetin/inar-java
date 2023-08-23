@@ -6,10 +6,10 @@ public class Question_03_11 {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
 
-        System.out.println("Enter the month as integer : ");
+        System.out.print("Enter the month as integer : ");
         int month = input.nextInt();
 
-        System.out.println("Enter the year as integer : ");
+        System.out.print("Enter the year as integer : ");
         int year = input.nextInt();
 
         int daysInMonths = 0;
