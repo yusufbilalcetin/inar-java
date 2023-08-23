@@ -5,6 +5,7 @@ import java.util.Scanner;
 public class Question_03_12 {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
+
         System.out.println("enter a three-digit integer ");
         int number1 = input.nextInt();
 

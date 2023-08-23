@@ -5,8 +5,10 @@ import java.util.Scanner;
 public class Question_03_05 {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
+
         System.out.println("Enter today's day : ");
         double days = input.nextDouble();
+
         System.out.println("Enter the number elapsed since today : ");
         double numberOfDays = input.nextDouble();
 

@@ -5,6 +5,7 @@ import java.util.Scanner;
 public class Question_03_07 {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
+
         System.out.println("enter the amount (e.g 11,56): ");
         double amount = input.nextDouble();
 

@@ -5,6 +5,7 @@ import java.util.Scanner;
 public class Question_03_09 {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
+
         System.out.println("Enter the first 9 digits of an ISBN as integer :");
         int number = input.nextInt();
 
