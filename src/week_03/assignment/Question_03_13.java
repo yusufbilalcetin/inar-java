@@ -81,6 +81,4 @@ public class Question_03_13 {
         System.out.println("tax is " + (int) (tax * 100) / 100.0);
     }
 }
-            }
-                    }
-                    }
+
