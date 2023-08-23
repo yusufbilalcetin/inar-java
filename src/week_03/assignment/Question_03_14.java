@@ -6,23 +6,18 @@ public class Question_03_14 {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
 
-        double random = Math.random();
+        byte tailHead = (byte) (Math.random() * 2);
 
-        System.out.println("Guess the flip of coin ( 0 represents head and 1 represents tail : ");
-        int answer = input.nextInt();
+        System.out.println("Guess the flip of coin (0 represents head and 1 represents tail) :");
 
-        if ( random < 0.5 && answer < 1){
-            System.out.println("Your guess is correct");
+        byte guess = input.nextByte();
 
-        }else if (random >= 0.5 && answer == 1) {
-            System.out.println("Your guess is correct");
-
-        }else if ( (random < 0.5 && answer == 1) || (random > 0.5 && answer < 1)){
-            System.out.println("Your guess is incorrect.");
-        }
-        else if (answer > 1 || answer < 0 ) {
-
-            System.out.println("Invalid value ");
+        if (guess > 1 || guess < 0) {
+            System.out.println("Enter 0 or 1!");
+        } else if (guess == tailHead) {
+            System.out.println("Your guess is correct!");
+        } else {
+            System.out.println("Your guess is not correct!");
         }
     }
 }
