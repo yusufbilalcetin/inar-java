@@ -7,32 +7,34 @@ public class Question_03_17 {
         Scanner input = new Scanner(System.in);
 
         System.out.println("scissor (0), rock(1), paper(2): ");
-        int amount = input.nextInt();
+        int playerChoice = input.nextInt();
 
-        byte value1 = (byte)(Math.random() * 3);
+        if (playerChoice < 0 || playerChoice > 2) {
+            System.out.println("invalid choice ");
+        }
 
-        if(value1 == 0 || amount == 0){
-            System.out.println("the computer is scissor. You are scissor too. it is a draw" );
-        }else if(value1 == 0 || amount == 1){
+        int computerChoice = (int) (Math.random() * 2);
+
+
+        if (computerChoice == 0 && playerChoice == 0) {
+            System.out.println("the computer is scissor. You are scissor too. it is a draw");
+        } else if (computerChoice == 0 && playerChoice == 1) {
             System.out.println("the computer is scissor. You are rock. You are won");
-        }else if(value1 == 0 || amount == 2){
-            System.out.println(("the computer is scissor. You are paper. You are lost" ));
-        }else if(value1 == 1 || amount == 0){
-            System.out.println("the computer is rock. You are rock. You are won");
-        }else if(value1 == 1 || amount == 1) {
+        } else if (computerChoice == 0 && playerChoice == 2) {
+            System.out.println(("the computer is scissor. You are paper. You are lost"));
+        } else if (computerChoice == 1 && playerChoice == 0) {
+            System.out.println("the computer is rock. You are scissor. You are lost");
+        } else if (computerChoice == 1 && playerChoice == 1) {
             System.out.println(("the computer is rock. You are rock too. it is a draw"));
-        }else if(value1 == 1 || amount == 2){
+        } else if (computerChoice == 1 && playerChoice == 2) {
             System.out.println("the computer is rock. You are paper. You are won");
-        }else if(value1 == 2 || amount == 0){
+        } else if (computerChoice == 2 && playerChoice == 0) {
             System.out.println("the computer is paper. You are scissor You are won");
-        }else if(value1 == 2 || amount == 1) {
-            System.out.println(("the computer is paper. You are rock . it is a draw"));
-        }else if(value1 == 2 || amount == 2) {
-            System.out.println("the computer is paper. You are paper too. You are won");
-        }else{
-            System.out.println("invalid amount");
+        } else if (computerChoice == 2 && playerChoice == 1) {
+            System.out.println(("the computer is paper. You are rock . You are lost"));
+        } else if (computerChoice == 2 && playerChoice == 2) {
+            System.out.println("the computer is paper. You are paper too. it is a draw");
         }
 
     }
-
 }
