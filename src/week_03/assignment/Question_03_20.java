@@ -14,7 +14,7 @@ public class Question_03_20 {
         if (temperature >= -58 && temperature <= 41 && speed >= 2) {
             double chill = 35.74 + (0.6215 * temperature) - (35.75 * Math.pow(speed, 0.16)) + (0.4275 * temperature * Math.pow(speed, 0.16));
             System.out.print("The wind chill index is ");
-            System.out.format("%.5f", chill);
+            System.out.printf("%.5f", chill);
         } else if ((temperature < -58 || temperature > 41) && speed >= 2) {
             System.out.println("The input of temperature is invalid.");
         } else if (speed < 2 && temperature >= -58 && temperature <= 41) {
