@@ -1,7 +1,7 @@
 package week_03.assignment;
 
 
-public class Questin_03_24 {
+public class Question_03_24 {
     public static void main(String[] args) {
 
         int group = (int) (Math.random() * 3 + 1);
