@@ -16,7 +16,7 @@ public class Question_03_25 {
         double y3 = input.nextDouble();
         double x4 = input.nextDouble();
         double y4 = input.nextDouble();
-        
+
         double a = (y1 - y2);
         double b = (-x1 + x2);
         double c = (y3 - y4);
