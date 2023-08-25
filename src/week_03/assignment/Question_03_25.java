@@ -16,14 +16,7 @@ public class Question_03_25 {
         double y3 = input.nextDouble();
         double x4 = input.nextDouble();
         double y4 = input.nextDouble();
-
-         /*  (y1 - y2)x - (x1 - x2)y = (y1 - y2)x1 - (x1 - x2)y1
-            (y3 - y4)x - (x3 - x4)y = (y3 - y4)x3 - (x3 - x4)y3
-
-            The Cramer's rule is
-           ax + by = e           x = (ed - bf) / (ad - bc)
-           cx + dy = f           y = (af - ec) / (ad - bc)
-        */
+        
         double a = (y1 - y2);
         double b = (-x1 + x2);
         double c = (y3 - y4);
