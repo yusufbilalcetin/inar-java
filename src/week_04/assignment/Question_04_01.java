@@ -14,7 +14,5 @@ public class Question_04_01 {
 
         System.out.printf("The are of the pentagon is %.2f" , area);
 
-
-
     }
 }
