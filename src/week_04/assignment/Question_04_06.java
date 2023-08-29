@@ -4,8 +4,6 @@ package week_04.assignment;
 public class Question_04_06 {
     public static void main(String[] args) {
 
-        System.out.println("The three angles are : ");
-
         double angle1 = (Math.random() * Math.PI) * 2;
         double angle2 = (Math.random() * Math.PI) * 2;
         double angle3 = (Math.random() * Math.PI) * 2;
@@ -47,7 +45,7 @@ public class Question_04_06 {
                 - sideAOfBetweenPoint1AndPoint2 * sideAOfBetweenPoint1AndPoint2)
                 / (-2 * sideAOfBetweenPoint1AndPoint2 * sideBOfBetweenPoint1AndPoint2));
 
-        System.out.printf("the three angles are : %5.2f  %5.2f  %5.2f " ,  Math.toDegrees(angleA)
-                , Math.toDegrees(angleB) , Math.toDegrees(angleC) );
+        System.out.printf("the three angles are : %5.2f  %5.2f  %5.2f ", Math.toDegrees(angleA)
+                , Math.toDegrees(angleB), Math.toDegrees(angleC));
     }
 }
