@@ -41,7 +41,6 @@ public class Question_03_17 {
                     System.out.println((computerChoice != 0) ? "You chose paper and the computer chose scissor. You lost! ☹️" : "You chose paper and the computer chose rock. You won! \uD83E\uDD73");
                     break;
             }
-
         }
     }
 }
