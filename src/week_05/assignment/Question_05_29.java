@@ -83,7 +83,6 @@ public class Question_05_29 {
             // display calendar body
             // start the calendar first day according to the first day variable
 
-            // bosluklari koyalim
             for (int j = 0; j < firstDay % 7; j++) {
                 System.out.printf("%5s", "");
             }
