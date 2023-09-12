@@ -5,8 +5,7 @@ import java.util.Scanner;
 public class Question_05_30 {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
-
-
+        
         System.out.print("Enter an amount (e.g., 100) : ");
         double amount = input.nextDouble();
 

@@ -15,7 +15,6 @@ public class Question_05_31 {
         System.out.print("Enter maturity period (number of months) : ");
         double months = input.nextDouble();
 
-
         for (int i = 0; i < months; i++) {
             amount += amount * (annualPercentageYield / 1200);
             System.out.printf("%-8d%.2f" , (i + 1) , amount);
