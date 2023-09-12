@@ -2,7 +2,7 @@ package week_05.live_class;
 
 import java.util.Scanner;
 
-public class Duplicate {
+public class compressing {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         //input = "aaabcccccaaa"
