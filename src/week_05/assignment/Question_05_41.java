@@ -27,7 +27,6 @@ public class Question_05_41 {
                 break;
             }
         }
-        System.out.println(max);
-        System.out.println(maxCounter);
+        System.out.println("the largest count " + max + " and the occurrence of the count is " + maxCounter);
     }
 }
