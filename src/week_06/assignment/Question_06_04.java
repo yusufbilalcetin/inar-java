@@ -7,14 +7,21 @@ public class Question_06_04 {
         Scanner input = new Scanner(System.in);
 
         System.out.println("display an integer reversed : ");
-        System.out.println("Enter an integer : ");
-        String str = input.next();
 
-        System.out.println(reverse(str));
+        System.out.print("Enter an integer : ");
+        int number = input.nextInt();
+
+        System.out.println("reverse of the number: ");
+        reverse(number);
 
     }
 
-    public static void reverse(int number) {
 
+    public static void reverse(int number) {
+        while (number > 0) {
+            System.out.print(number % 10);
+            number /= 10;
+        }
+        System.out.println();
     }
 }
