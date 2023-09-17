@@ -1,9 +1,13 @@
 package week_05.assignment;
 
 
+import java.util.Scanner;
+
 public class Question_05_17 {
     public static void main(String[] args) {
-        int line = 32;
+        Scanner input = new Scanner(System.in);
+        System.out.println("enter the amount :");
+        int line = input.nextInt();
 
         for (int i = 0; i <= 7; i++) {
             System.out.printf("%" + line + "s", "");
