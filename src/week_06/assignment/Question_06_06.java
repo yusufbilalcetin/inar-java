@@ -18,7 +18,6 @@ public class Question_06_06 {
             for (int j = 0; j < sum; j++) {
                 System.out.print("  ");
             }
-
             for (int k = i; k > 0; k--) {
                 System.out.print(k + " ");
             }
