@@ -1,7 +1,5 @@
 package week_06.assignment;
 
-import week_04.live_class.FindCloseGym;
-
 public class Question_06_12 {
     public static void main(String[] args) {
         System.out.println("Characters per 1 to Z :");
