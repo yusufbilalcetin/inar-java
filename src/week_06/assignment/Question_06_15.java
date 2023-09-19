@@ -6,12 +6,12 @@ public class Question_06_15 {
                 "Income                   or Qualifying       Separate       a House\n" +
                 "                         Widow(er)\n" +
                 "---------------------------------------------------------------------");
-        double from = 50000;
-        double to = 60000;
-        double interval = 50;
+        double status = 50000;
+        double tax = 60000;
+        double space = 50;
 
-        for (double taxableIncome = from;
-             taxableIncome <= to; taxableIncome += interval) {
+        for (double taxableIncome = status;
+             taxableIncome <= tax; taxableIncome += space) {
             System.out.printf("%-13.0f", taxableIncome);
             System.out.printf("%-12d", Math.round(computeTax(0, taxableIncome)));
             System.out.printf("%-20d", Math.round(computeTax(1, taxableIncome)));

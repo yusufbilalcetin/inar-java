@@ -2,8 +2,7 @@ package week_06.assignment;
 
 public class Question_06_11 {
     public static void main(String[] args) {
-        System.out.println("Sales Amount     |     Comission      \n" +
-                "---------------------------------------------------");
+        System.out.println("Sales Amount     |     Comission      \n" + "---------------------------------------------------");
         for (double Amount = 10000; Amount <= 100000; Amount += 5000) {
             System.out.printf(" %-16.0f", Amount);
             System.out.printf("%13.1f\n", computeCommission(Amount));
@@ -14,15 +13,17 @@ public class Question_06_11 {
         double balance = 0;
         double commission = 0;
 
-        if (amount >= 10000.01)
-            commission += (balance = amount - 10000) * 0.12;
-
-        if (amount >= 5000.01)
+        if (amount >= 10000.01) {
+            balance += ((amount - 10000) * 0.12);
+            commission += balance;
+        }
+        if (amount >= 5000.01) {
             commission += (balance -= balance - 5000) * 0.10;
+        }
 
-        if (amount >= 0.01)
+        if (amount >= 0.01) {
             commission += balance * 0.08;
-
+        }
         return commission;
     }
 }
