@@ -20,7 +20,15 @@ public class Question_06_19 {
 
 
     public static boolean isValid(double side1, double side2, double side3) {
-        //TODO
+        if ((side1 + side2) > side3) {
+            return true;
+        } else if ((side1 + side3) > side2) {
+            return true;
+        } else if ((side2 + side3) > side1) {
+            return true;
+        } else {
+            return false;
+        }
     }
 
     public static double area(double side1, double side2, double side3) {
