@@ -101,7 +101,6 @@ public class Question_06_15 {
                         (372950 - 190200) * 0.33 + (taxableIncome - 372950) * 0.35;
         }
         return tax;
-
     }
 }
 
