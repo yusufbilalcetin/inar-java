@@ -20,7 +20,7 @@ public class Question_06_18 {
         if (!isLenghtValid(str)) {
             return false;
         }
-        if (isDigitOrLetters(str)) {
+        if (!isDigitOrLetters(str)) {
             return false;
         }
         if (!haveAtLeastTwoNumber(str)) {
