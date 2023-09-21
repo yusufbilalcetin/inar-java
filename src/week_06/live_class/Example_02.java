@@ -2,10 +2,10 @@ package week_06.live_class;
 
 import java.util.Scanner;
 
-public class Example {
+public class Example_02 {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
-        System.out.print("Enter the number of rows : ");
+        System.out.print("Enter the number of rows :");
         int row = input.nextInt();
 
         displayPattern(row);
@@ -18,10 +18,8 @@ public class Example {
             }
             for (int j = i; j >= 1; j--) {
                 System.out.print(j + " ");
-
             }
             System.out.println();
-
         }
     }
 }
