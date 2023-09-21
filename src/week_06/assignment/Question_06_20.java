@@ -1,6 +1,6 @@
-package week_06.live_class;
+package week_06.assignment;
 
-public class Deneme_01 {
+public class Question_06_20 {
     public static void main(String[] args) {
         
     }

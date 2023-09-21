@@ -23,7 +23,7 @@ public class Question_06_18 {
         if (!isDigitOrLetters(str)) {
             return false;
         }
-        if (!haveAtLeastTwoNumber(str)) {
+        if (!hasAtLeastTwoNumber(str)) {
             return false;
         }
         return true;
@@ -45,7 +45,7 @@ public class Question_06_18 {
         return true;
     }
 
-    public static boolean haveAtLeastTwoNumber(String str) {
+    public static boolean hasAtLeastTwoNumber(String str) {
         int count = 0;
         for (int i = 0; i < str.length(); i++) {
             char ch = str.charAt(i);
