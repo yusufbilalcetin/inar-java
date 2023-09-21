@@ -30,8 +30,8 @@ public class Question_06_18 {
     }
 
 
-    public static boolean isLenghtValid(boolean str) {
-        return str.lenght() >= 8;
+    public static boolean isLenghtValid(String str) {
+        return str.length() >= 8;
     }
 
     public static boolean isDigitOrLetters(String str) {
