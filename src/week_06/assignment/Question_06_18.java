@@ -14,10 +14,10 @@ public class Question_06_18 {
     }
 
     public static boolean isValidPassword(String str) {
-        if (isLenghtValid(isValidPassword(str))) {
-            return true;
+        if (!isLenghtValid(str)) {
+            return false;
         }
-        return false;
+        return true;
     }
 
 
