@@ -18,7 +18,9 @@ public class Question_06_11 {
             commission += balance;
         }
         if (amount >= 5000.01) {
-            commission += (balance -= balance - 5000) * 0.10;
+            balance -= (balance - 5000) * 0.10;
+            commission += balance;
+
         }
 
         if (amount >= 0.01) {
