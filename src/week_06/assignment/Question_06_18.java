@@ -15,13 +15,14 @@ public class Question_06_18 {
 
     public static boolean isValidPassword(String str) {
         if (isLenghtValid(isValidPassword(str))) {
+            return true;
         }
-        return true;
+        return false;
     }
 
 
     public static boolean isLenghtValid(boolean str) {
-        return str.length () >= 8;
+        return str.lenght() >= 8;
     }
 
     public static boolean isDigitOrLetters(String str) {
