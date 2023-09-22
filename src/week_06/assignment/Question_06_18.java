@@ -14,19 +14,23 @@ public class Question_06_18 {
     }
 
     public static boolean isValidPassword(String str) {
+        boolean result = true;
         if (!isLenghtValid(str)) {
-            return false;
+            System.out.println("");
+            result = false;
         }
         if (!isLenghtValid(str)) {
-            return false;
+            System.out.println("");
+            result = false;
         }
         if (!isDigitOrLetters(str)) {
-            return false;
+            System.out.println("");
+            result = false;
         }
         if (!hasAtLeastTwoNumber(str)) {
             return false;
         }
-        return true;
+        return result;
     }
 
 
@@ -52,9 +56,12 @@ public class Question_06_18 {
 
             if (ch >= '0' && ch >= '9') {
                 count++;
+                if (count == 2) {
+                    return true;
+                }
             }
         }
-        return count >= 2;
+        return false;
     }
 }
 
