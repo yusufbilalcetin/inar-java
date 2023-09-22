@@ -6,10 +6,10 @@ public class Question_05_29 {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
 
-        System.out.println("Enter year : ");
+        System.out.print("Enter year : ");
         int year = input.nextInt();
 
-        System.out.println("Enter first day of year 1 for Monday 2 for tuesday : ");
+        System.out.print("Enter first day of year 1 for Monday 2 for tuesday : ");
         int firstDay = input.nextInt();
 
         for (int i = 1; i <= 12; i++) {
@@ -80,14 +80,10 @@ public class Question_05_29 {
             System.out.println("\n--------------------------");
             System.out.println("Sun  Mon  Tue  Wed  Thu  Fri  Sat");
 
-            // display calendar body
-            // start the calendar first day according to the first day variable
-
             for (int j = 0; j < firstDay % 7; j++) {
                 System.out.printf("%5s", "");
             }
 
-            // start writing numbers
             for (int j = 1; j <= numberOfDayInMonth; j++) {
                 if ((firstDay + j) % 7 == 0) {
                     System.out.printf("%-5d\n", j);

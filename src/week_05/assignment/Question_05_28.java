@@ -5,9 +5,9 @@ import java.util.Scanner;
 public class Question_05_28 {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
-        System.out.println("Enter year : ");
+        System.out.print("Enter year : ");
         int year = input.nextInt();
-        System.out.println("Enter first day of year 1 for Monday 2 for tuesday : ");
+        System.out.print("Enter first day of year 1 for Monday 2 for tuesday : ");
         int firstDay = input.nextInt();
 
         for (int numberOfMonth = 1; numberOfMonth <= 12; numberOfMonth++) {
