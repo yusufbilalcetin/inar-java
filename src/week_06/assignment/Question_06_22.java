@@ -13,14 +13,13 @@ public class Question_06_22 {
     }
 
     public static double sqrt(long number) {
-        long lastGuess = 1;
-        long nextGuess = (lastGuess + number / lastGuess) / 2;
+        double lastGuess = 1;
+        double nextGuess = (lastGuess + number / lastGuess) / 2;
 
         while (nextGuess - lastGuess > 0.0001) {
-            lastGuess = nextGuess;
+            lastGuess += 0.1;
             nextGuess = (lastGuess + number / lastGuess) / 2;
         }
-        lastGuess = nextGuess;
-        return nextGuess = (lastGuess + number / lastGuess) / 2;
+        return nextGuess;
     }
 }
