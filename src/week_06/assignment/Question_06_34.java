@@ -9,11 +9,6 @@ public class Question_06_34 {
         int year = input.nextInt();
         System.out.print("Enter month as number between 1 and 12: ");
         int month = input.nextInt();
-        printTheMonth(year,month);
-    }
 
-    public static void printTheMonth(int year, int month) {
-        printHeader(year, month);
-        printDays(year, month);
     }
 }
