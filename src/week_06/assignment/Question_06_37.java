@@ -13,13 +13,11 @@ public class Question_06_37 {
 
     public static String format(int number, int width) {
         String num = "" + number;
-        if ((num.length() >= width)) {
-            return num;
+        if (num.length() < width) {
+            for (int i = width - num.length(); i > 0; i--) {
+                num = "0" + num;
+            }
         }
-        String newFormat = "";
-        for (int i = num.length(); i < width; i++) {
-            newFormat += "0";
-        }
-        return newFormat + num;
+        return num;
     }
 }
