@@ -3,7 +3,7 @@ package week_06.assignment;
 public class Question_06_32 {
     public static void main(String[] args) {
         int count = 0;
-        for (int i = 0; i < 3; i++) {
+        for (int i = 0; i < 10_000; i++) {
             boolean gameWin = playCraps();
             if (gameWin) {
                 count++;
