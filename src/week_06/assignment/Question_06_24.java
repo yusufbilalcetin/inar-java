@@ -77,7 +77,7 @@ public class Question_06_24 {
     }
 
     public static int getTotalDaysInCurrentYear(long milliseconds, int year) {
-        int sum = 0; 
+        int sum = 0;
         for (int i = 1970; i < year; i++) {
             sum += isLeapYear(i) ? 366 : 365;
         }
