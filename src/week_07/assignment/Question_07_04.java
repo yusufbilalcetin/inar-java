@@ -5,8 +5,6 @@ import java.util.Scanner;
 public class Question_07_04 {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
-
-
         int[] scores = new int[101];
         int sumScores = sum(scores);
         int numberOfScores = numberOfScores(scores);
