@@ -5,56 +5,47 @@ import java.util.Scanner;
 public class Question_07_04 {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
-        int[] scores = new int[101];
-        int sumScores = sum(scores);
-        int numberOfScores = numberOfScores(scores);
-        int average = sumScores / numberOfScores;
-        display(average, scores);
+        int[] numbers = new int[101];
+        System.out.println("Enter scores : ");
+        int value;
+        do {
+            value = input.nextInt();
+            if (value >= 0) {
+                numbers[value]++;
+            }
+
+        } while (value >= 0);
+        int average = average(numbers);
+        System.out.println("Average of scores : " + average);
+        numberOfScoresAboveOrBelowAverage(numbers, average);
     }
 
-    public static int sum(int[] array) {
-        Scanner input = new Scanner(System.in);
-        int sumScores = 0;
-        boolean isPositive = true;
-        System.out.print("Enter the score: ");
-
-        while (isPositive) {
-            int score = input.nextInt();
-            if (score < 0) {
-                isPositive = false;
+    public static void numberOfScoresAboveOrBelowAverage(int[] numbers, int average) {
+        int belowAverage = 0;
+        int equalOrAboveAverage = 0;
+        for (int i = 0; i < numbers.length; i++) {
+            if (i >= average) {
+                equalOrAboveAverage += numbers[i];//number[1] = 1
             } else {
-                sumScores += score;
-                array[score]++;
+                belowAverage += numbers[i];
             }
         }
-        return sumScores;
+        System.out.println("Number of scores above or equal to average : " + equalOrAboveAverage);
+        System.out.println("Number of scores below average : " + belowAverage);
     }
 
-    public static int numberOfScores(int[] array) {
-        int numberOfScores = 0;
-        for (int i = 0; i < array.length; i++) {
-            numberOfScores += array[i];
-        }
-        return numberOfScores;
-    }
-
-    public static void display(double average, int[] array) {
-        int aboveInteger = 0;
-        int equalInteger = 0;
-        int belowInteger = 0;
-        for (int i = 0; i < array.length; i++) {
-            if (array[i] > 0) {
-                if (i > average) {
-                    aboveInteger += array[i];
-                } else if (i == average) {
-                    equalInteger += array[i];
-                } else {
-                    belowInteger += array[i];
-                }
+    public static int average(int[] numbers) {
+        int sum = 0;
+        int count = 0;
+        for (int i = 0; i < numbers.length; i++) {
+            sum += numbers[i] * i;
+            if (numbers[i] > 0) {
+                count += numbers[i];
             }
         }
-        System.out.println("\nAverage of scores: " + average + "\n"
-                + "Number of scores above or equal to average: " + (aboveInteger + equalInteger) + "\n"
-                + "Number of scores below average: " + belowInteger);
+        if (count == 0) {
+            return 0;
+        }
+        return sum / count;
     }
 }
