@@ -39,22 +39,22 @@ public class Question_07_04 {
     }
 
     public static void display(double average, int[] array) {
-        int a = 0;
-        int b = 0;
-        int c = 0;
+        int aboveInteger = 0;
+        int equalInteger = 0;
+        int belowInteger = 0;
         for (int i = 0; i < array.length; i++) {
             if (array[i] > 0) {
                 if (i > average) {
-                    a += array[i];
+                    aboveInteger += array[i];
                 } else if (i == average) {
-                    b += array[i];
+                    equalInteger += array[i];
                 } else {
-                    c += array[i];
+                    belowInteger += array[i];
                 }
             }
         }
         System.out.println("\nAverage of scores: " + average + "\n"
-                + "Number of scores above or equal to average: " + (a + b) + "\n"
-                + "Number of scores below average: " + c);
+                + "Number of scores above or equal to average: " + (aboveInteger + equalInteger) + "\n"
+                + "Number of scores below average: " + belowInteger);
     }
 }

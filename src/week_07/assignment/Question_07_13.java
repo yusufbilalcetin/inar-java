@@ -10,5 +10,17 @@ public class Question_07_13 {
             System.out.print("Enter ten numbers to excude from random (1-54): ");
             randomNumber[i] = input.nextInt();
         }
+        do {
+            randomNumber = (int) (Math.random() * 54);
+        } while (getRandom(randomNumber));
+        System.out.print("Number generated: " + getRandom(randomNumber));
+    }
+
+    public static int getRandom(int... numbers) {
+        int number = 0;
+        for (int i = 0; i < numbers.length; i++) {
+            number = (int) (Math.random() * 54);
+        }
+        return number;
     }
 }
