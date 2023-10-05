@@ -10,7 +10,6 @@ public class Question_07_13 {
         for (int i = 0; i < randomNumber.length; i++) {
             randomNumber[i] = input.nextInt();
         }
-        int number = getRandom(randomNumber);
         System.out.print("Number generated: " + getRandom(randomNumber));
     }
 
