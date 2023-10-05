@@ -11,7 +11,6 @@ public class Question_07_14 {
             number[i] = input.nextInt();
         }
         System.out.println("The greatest common divisor is " + gcd(number));
-
     }
 
     public static int gcd(int... number) {
@@ -39,5 +38,4 @@ public class Question_07_14 {
         }
         return min;
     }
-
 }
