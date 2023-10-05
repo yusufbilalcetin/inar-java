@@ -1,6 +1,5 @@
 package week_07.assignment;
 
-import java.util.Enumeration;
 import java.util.Scanner;
 
 public class Question_07_15 {
