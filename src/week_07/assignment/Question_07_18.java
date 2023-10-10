@@ -8,21 +8,24 @@ public class Question_07_18 {
         System.out.print("Enter ten numbers: ");
         double[] array = new double[10];
         for (int i = 0; i < array.length; i++) {
-            array[i] = input.nextInt();
+            array[i] = input.nextDouble();
         }
         bubbleSort(array);
         for (double e : array) {
-            System.out.println(e + " ");
+            System.out.print(e + " ");
         }
     }
 
     public static void bubbleSort(double[] array) {
-        for (int i = 0 ; i < array.length; i++) {
-            if (array[i] > array[i + 1]) {
-                double temp = array[i];
-                array[i] = array[i + 1];
-                array[i] = temp;
+        for (int i  = array.length - 1; 0 < i; i--) {
+            for (int j = 0; j < i; j++) {
+                if (array[j] > array[j + 1]) {
+                    double temp = array[j];
+                    array[j] = array[j + 1];
+                    array[j + 1] = temp;
+                }
             }
         }
     }
 }
+
