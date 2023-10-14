@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class Question_07_26 {
     public static void main(String[] args) {
-        similarityOfLisr();
+        similarityOfList();
     }
 
     public static int[] getList(int listNumber) {
@@ -18,7 +18,7 @@ public class Question_07_26 {
         return list;
     }
 
-    public static void similarityOfLisr() {
+    public static void similarityOfList() {
         int[] list1 = getList(1);
         int[] list2 = getList(2);
         correntOrWrong(list1, list2);
