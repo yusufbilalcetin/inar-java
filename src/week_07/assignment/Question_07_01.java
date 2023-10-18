@@ -18,6 +18,7 @@ public class Question_07_01 {
                 bestScore = score[i];
             }
         }
+
         for (int i = 0; i < score.length; i++) {
             System.out.print("student " + i + " score is " + (int) score[i] + " and grade is ");
             if (score[i] >= bestScore - 10) {
