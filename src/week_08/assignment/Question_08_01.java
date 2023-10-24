@@ -1,7 +1,6 @@
 package week_08.assignment;
 
 import java.util.Scanner;
-
 public class Question_08_01 {
     public static void main(String[] args) {
         double[][] matrix = getArray(3, 4);
