@@ -12,7 +12,7 @@ public class Question_08_26 {
         double[][] matrix = getMatrixFromUser();
         displayMatrix(matrix);
 
-        double[][] matrixSorted = CopyMatrix(matrix);
+        double[][] matrixSorted = copyMatrix(matrix);
         sortRows(matrixSorted);
 
         System.out.println("The row-sorted array is ");
@@ -31,7 +31,7 @@ public class Question_08_26 {
         return matrix;
     }
 
-    private static double[][] CopyMatrix(double[][] matrix) {
+    private static double[][] copyMatrix(double[][] matrix) {
         double[][] sortedMatrix = new double[3][3];
         for (int i = 0; i < matrix.length; i++) {
             for (int j = 0; j < matrix[i].length; j++) {
