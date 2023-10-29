@@ -30,7 +30,6 @@ public class Question_09_33 {
             System.out.printf("%.2f%s", areas[i], " ");
         }
     }
-
     public static double[] getIntersectingPoint(double[][] points) {
         double[] intersectingPoint = new double[3];
 

@@ -6,8 +6,8 @@ public class Question_09_32 {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         System.out.print("Enter x1, y1, x2, y2, x3, y3: ");
-        double[][] points = new double[3][2];
 
+        double[][] points = new double[3][2];
         for (int row = 0; row < points.length; row++) {
             for (int column = 0; column < points[row].length; column++) {
                 points[row][column] = input.nextDouble();
