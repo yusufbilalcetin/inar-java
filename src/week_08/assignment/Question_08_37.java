@@ -2,7 +2,7 @@ package week_08.assignment;
 
 import java.util.Scanner;
 
-public class Question_09_37 {
+public class Question_08_37 {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         String[][] statesAndCapitals = {{"Alabama", "Montgomery"}, {"Alaska", "Juneau"}, {"Arizona", "Phoenix"},

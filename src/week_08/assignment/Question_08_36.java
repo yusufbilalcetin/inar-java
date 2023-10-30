@@ -2,7 +2,7 @@ package week_08.assignment;
 
 import java.util.Scanner;
 
-public class Question_09_36 {
+public class Question_08_36 {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         System.out.print("Enter number n: ");

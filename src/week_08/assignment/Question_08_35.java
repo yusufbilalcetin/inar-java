@@ -2,7 +2,7 @@ package week_08.assignment;
 
 import java.util.Scanner;
 
-public class Question_09_35 {
+public class Question_08_35 {
     public static void main(String[] args) {
         int[][] matrix = getFromUser();
 

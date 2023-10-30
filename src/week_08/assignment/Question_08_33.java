@@ -3,7 +3,7 @@ package week_08.assignment;
 import java.util.Arrays;
 import java.util.Scanner;
 
-public class Question_09_33 {
+public class Question_08_33 {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         System.out.println("Enter x1, y1, x2, y2, x3, y3, x4, y4: ");
