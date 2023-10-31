@@ -1,10 +1,8 @@
 package week_09.assignment;
 
-import java.util.Scanner;
-
-public class RectangleTest {
+public class RectangleTest_09_01 {
     public static void main(String[] args) {
-        Rectangle rectangle1 = new Rectangle();
+        Rectangle_09_01 rectangle1 = new Rectangle_09_01();
 
         System.out.println("--Reactangle 1--");
         System.out.println("width        :" + rectangle1.width);
@@ -14,7 +12,7 @@ public class RectangleTest {
         System.out.println();
         System.out.println("--Reactangle 2--");
 
-        Rectangle rectangle2 = new Rectangle(3.5,35.9);
+        Rectangle_09_01 rectangle2 = new Rectangle_09_01(3.5,35.9);
         System.out.println("width        :" + rectangle2.width);
         System.out.println("Height       :" + rectangle2.height);
         System.out.println("Area         :" + rectangle2.getArea());
