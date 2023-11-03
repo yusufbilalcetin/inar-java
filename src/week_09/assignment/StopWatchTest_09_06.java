@@ -1,19 +1,34 @@
 package week_09.assignment;
 
+import java.util.Date;
+
 import static week_07.assignment.Question_07_16.selectionSort;
 
 public class StopWatchTest_09_06 {
-    public static void main(String[] args) {
-        StopWatch_09_06 stopWatch = new StopWatch_09_06();
+    private long startTime;
+    private long endTime;
 
-        int[] number = new int[100_000];
-        for (int i = 0; i <number.length ; i++) {
-            number[i] = (int) (Math.random() * 100_000);
-        }
-        stopWatch.start();
-        selectionSort(number);
-        stopWatch.stop();
+    public StopWatch_09_06() {
+        startTime = new Date().getTime();
+    }
 
-        System.out.println("The execution of sorting  100,000 numbers using selection sort :" + stopWatch.getElapsedTime() + " milliseconds");
+    public long getStartTime() {
+        return startTime;
+    }
+
+    public long getEndTime() {
+        return endTime;
+    }
+
+    public void start() {
+        startTime = new Date().getTime();
+    }
+
+    public void stop() {
+        endTime = new Date().getTime();
+    }
+
+    public long getElapsedTime() {
+        return (endTime - startTime);
     }
 }
