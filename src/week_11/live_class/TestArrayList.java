@@ -18,7 +18,6 @@ public class TestArrayList {
         System.out.println("Is Miami in the list ? " + cityList.contains("Miami"));
         System.out.println("Is the list emtpy ? " + cityList.isEmpty());
 
-
         cityList.add(2, "Xian");
         cityList.remove("Miami");
         cityList.remove(1);
@@ -31,7 +30,6 @@ public class TestArrayList {
 
         list.add(new CircleFromSimpleGeometricObject(2));
         list.add(new CircleFromSimpleGeometricObject(3));
-
 
         System.out.println("The area of the circle ? " + list.get(0).getArea());
     }
