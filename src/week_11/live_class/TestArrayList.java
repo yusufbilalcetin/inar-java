@@ -32,6 +32,7 @@ public class TestArrayList {
         list.add(new CircleFromSimpleGeometricObject(2));
         list.add(new CircleFromSimpleGeometricObject(3));
 
+
         System.out.println("The area of the circle ? " + list.get(0).getArea());
     }
 }
