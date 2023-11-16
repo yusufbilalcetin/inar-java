@@ -13,7 +13,7 @@ public class DistinctNumbers {
 
         do {
             value = input.nextInt();
-            if (!list.contains(value) && value != 0) {""
+            if (!list.contains(value) && value != 0) {
                 list.add(value);
             }
         } while (value != 0);

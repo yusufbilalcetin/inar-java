@@ -21,7 +21,7 @@ public class SimpleGeometricObject {
         this.color = color;
     }
 
-    public boolean isFilled() {
+    public boolean IsFilled(boolean isFilled) {
         return filled;
     }
 
@@ -43,5 +43,9 @@ public class SimpleGeometricObject {
                 dateCreated +
                 "\ncolor" + color +
                 " and filled: " + filled;
+    }
+
+    public boolean IsFilled() {
+        return filled;
     }
 }
