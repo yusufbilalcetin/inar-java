@@ -5,7 +5,7 @@ public class PersonTest {
         Person person = new Person("Gürol", "İstanbul", "9999999999", "gurol@inar.com");
         System.out.println(person.toString() + "\n");
 
-        Student_11_02 student = new Student_11_02("Nafiz", "Ankara", "3333331133", "nafiz@gmail.com", 0);
+        Student student = new Student("Nafiz", "Ankara", "3333331133", "nafiz@gmail.com", 0);
         System.out.println(student.toString()+ "\n");
 
         Employee employee = new Employee("Recai", "istanbul", "6666666666", "recai@inar.com", 910, 60000);

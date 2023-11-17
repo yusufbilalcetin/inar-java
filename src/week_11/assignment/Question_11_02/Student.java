@@ -1,6 +1,6 @@
 package week_11.assignment.Question_11_02;
 
-public class Student_11_02 extends Person {
+public class Student extends Person {
     private int status;
 
     public static final int FRESHMAN = 1;
@@ -8,7 +8,7 @@ public class Student_11_02 extends Person {
     public static final int SOPHPMORE = 3;
     public static final int SENIOR = 4;
 
-    public Student_11_02(String name, String address, String phoneNumber, String eMail, int status) {
+    public Student(String name, String address, String phoneNumber, String eMail, int status) {
         super(name, address, phoneNumber, eMail);
         this.status = status;
     }
