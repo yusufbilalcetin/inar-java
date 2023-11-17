@@ -21,6 +21,10 @@ public class Account_09_07 {
         this.annualInterestRate = annualInterestRate;
         this.dateCreated = new Date();
     }
+    public Account_09_07(int id, double balance) {
+        this.Id = id;
+        this.balance = balance;
+    }
 
     public double getAnnualInterestRate() {
         return annualInterestRate;
