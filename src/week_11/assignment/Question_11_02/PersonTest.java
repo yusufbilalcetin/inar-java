@@ -2,7 +2,7 @@ package week_11.assignment.Question_11_02;
 
 public class PersonTest {
     public static void main(String[] args) {
-        Person_11_02 person = new Person_11_02("Gürol", "İstanbul", "9999999999", "gurol@inar.com");
+        Person person = new Person("Gürol", "İstanbul", "9999999999", "gurol@inar.com");
         System.out.println(person.toString() + "\n");
 
         Student_11_02 student = new Student_11_02("Nafiz", "Ankara", "3333331133", "nafiz@gmail.com", 0);

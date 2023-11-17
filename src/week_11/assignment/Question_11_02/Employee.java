@@ -2,7 +2,7 @@ package week_11.assignment.Question_11_02;
 
 import week_10.assignment.MyDate_10_14;
 
-public class Employee extends Person_11_02 {
+public class Employee extends Person {
     private int office;
     private double salary;
 

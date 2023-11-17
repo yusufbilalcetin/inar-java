@@ -1,16 +1,16 @@
 package week_11.assignment.Question_11_02;
 
-public class Person_11_02 {
+public class Person {
     private String name;
     private String address;
     private String phoneNumber;
     private String eMail;
 
-    public Person_11_02() {
+    public Person() {
         this("Unknown", "Unknown", "Unknown", "Unknown");
     }
 
-    public Person_11_02(String name, String address, String phoneNumber, String eMail) {
+    public Person(String name, String address, String phoneNumber, String eMail) {
         this.name = name;
         this.address = address;
         this.phoneNumber = phoneNumber;

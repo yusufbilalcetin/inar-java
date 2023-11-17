@@ -1,6 +1,6 @@
 package week_11.assignment.Question_11_02;
 
-public class Student_11_02 extends Person_11_02 {
+public class Student_11_02 extends Person {
     private int status;
 
     public static final int FRESHMAN = 1;
