@@ -2,13 +2,13 @@ package week_11.assignment.Question_11_02;
 
 import week_10.assignment.MyDate_10_14;
 
-public class Employee_11_02 extends Person_11_02 {
+public class Employee extends Person_11_02 {
     private int office;
     private double salary;
 
     private MyDate_10_14 dateHired;
 
-    public Employee_11_02(String name, String addres, String phoneNumber, String eMail, int office, double salary) {
+    public Employee(String name, String addres, String phoneNumber, String eMail, int office, double salary) {
         super(name, addres, phoneNumber, eMail);
         this.office = office;
         this.salary = salary;

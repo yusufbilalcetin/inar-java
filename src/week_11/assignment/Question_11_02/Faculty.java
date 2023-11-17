@@ -1,10 +1,10 @@
 package week_11.assignment.Question_11_02;
 
-public class Faculty_11_02 extends Employee_11_02 {
+public class Faculty extends Employee {
     private String officeHours;
     private String rank;
 
-    public Faculty_11_02(String name, String address, String phoneNumber, String eMail, int office, double salary, String officeHours, String rank) {
+    public Faculty(String name, String address, String phoneNumber, String eMail, int office, double salary, String officeHours, String rank) {
         super(name, address, phoneNumber, eMail, office, salary);
         this.officeHours = officeHours;
         this.rank = rank;

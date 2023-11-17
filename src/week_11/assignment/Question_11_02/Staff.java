@@ -1,9 +1,9 @@
 package week_11.assignment.Question_11_02;
 
-public class Staff_11_02 extends Employee_11_02 {
+public class Staff extends Employee {
     private String title;
 
-    public Staff_11_02(String name, String address, String phoneNumber, String eMail, String title, int office, String salary) {
+    public Staff(String name, String address, String phoneNumber, String eMail, String title, int office, String salary) {
         super(name, address, phoneNumber, eMail, office, Double.parseDouble(salary));
         this.title = title;
     }
