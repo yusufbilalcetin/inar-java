@@ -52,4 +52,10 @@ public class Circle2D_10_11 {
         return Math.sqrt(Math.pow(circle.getX() - x, 2) + Math.pow(circle.getY() - y, 2))
                 <= radius + circle.getRadius();
     }
+
+    @Override
+    public String toString() {
+        return "radius = " + radius;
+    }
+
 }

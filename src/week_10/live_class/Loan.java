@@ -13,7 +13,7 @@ public class Loan {
         this(2.5, 1, 1000);
     }
 
-    public Loan(double annualInterestRate, int numberOfYears, double loanAmount ) {
+    public Loan(double annualInterestRate, int numberOfYears, double loanAmount) {
         this.annualInterestRate = annualInterestRate;
         this.numberOfYears = numberOfYears;
         this.loanAmount = loanAmount;
@@ -54,7 +54,13 @@ public class Loan {
         double totalPayment = getMonthlyPayment() * numberOfYears * 12;
         return totalPayment;
     }
-    public Date getLoanDate(){
+
+    public Date getLoanDate() {
         return loanDate;
+    }
+
+    @Override
+    public String toString() {
+        return "annualInterestRate = " + annualInterestRate;
     }
 }
