@@ -7,7 +7,7 @@ public class TestTriangle {
         getInformationFromUser();
     }
 
-    private static void getInformationFromUser() {
+    public static void getInformationFromUser() {
         Scanner input = new Scanner(System.in);
 
         System.out.print("Enter three side of the triangle :");
