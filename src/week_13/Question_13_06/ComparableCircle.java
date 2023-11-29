@@ -10,8 +10,8 @@ public class ComparableCircle extends Circle implements Comparable<ComparableCir
     }
 
     @Override
-    public int compareTo(comparableCircle o) {
-        if (getArea() > o.getArea) {
+    public int compareTo(ComparableCircle o) {
+        if (getArea() > o.getArea()) {
             return 1;
         } else if (getArea() < o.getArea()) {
             return -1;
