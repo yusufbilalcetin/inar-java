@@ -15,10 +15,10 @@ public class TestTriangle {
         int side2 = input.nextInt();
         int side3 = input.nextInt();
 
-        System.out.print("Enter the color: ");
+        System.out.println("Enter the color: ");
         String color = input.next();
 
-        System.out.print("Enter: IsFilled ? true or false: ");
+        System.out.println("Enter: IsFilled ? true or false: ");
         boolean filled = input.hasNextBoolean();
         input.close();
 
