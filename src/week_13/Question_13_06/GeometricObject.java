@@ -1,8 +1,8 @@
-package week_13.Question_13_05;
+package week_13.Question_13_06;
 
 import java.util.Date;
 
-public abstract class GeometricObject implements Comparable<GeometricObject> {
+public abstract class GeometricObject {
     private boolean filled;
     private String color;
     private Date dateCreated;
@@ -43,21 +43,6 @@ public abstract class GeometricObject implements Comparable<GeometricObject> {
     }
 
     @Override
-    public int compareTo(GeometricObject o) {
-        if (this.getArea() > o.getArea()) {
-            return 1;
-        } else if (this.getArea() < o.getArea()) {
-            return -1;
-        } else {
-            return 0;
-        }
-    }
-
-    public static GeometricObject max(GeometricObject o1, GeometricObject o2) {
-        return o1.compareTo(o2) == 1 ? o1 : o2;
-    }
-
-    @Override
     public String toString() {
         return "It is created on " + dateCreated + "\nColor: " + this.color + "\nisfilled: " + filled;
     }
@@ -66,3 +51,4 @@ public abstract class GeometricObject implements Comparable<GeometricObject> {
 
     public abstract double getPerimeter();
 }
+
