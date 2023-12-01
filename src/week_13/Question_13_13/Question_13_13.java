@@ -20,7 +20,6 @@ public class Question_13_13 {
             System.out.print(students1[i] + ", ");
         }
 
-
         System.out.println("\n---------------------------------------");
 
         System.out.println("Number of students in course1 :" + course2.getNumberOfStudents());

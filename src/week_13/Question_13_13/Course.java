@@ -64,7 +64,6 @@ public class Course implements Cloneable {
         return courseClone;
     }
 
-
     public String toString() {
         return "\"" + courseName + "\"";
     }
