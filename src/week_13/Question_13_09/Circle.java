@@ -48,4 +48,5 @@ public class Circle extends GeometricObject implements Comparable<GeometricObjec
     public String toString() {
         return super.toString() + "\nRadius: " + this.radius + "\nArea: " + this.getArea() + "\nPerimeter: " + this.getPerimeter();
     }
+
 }

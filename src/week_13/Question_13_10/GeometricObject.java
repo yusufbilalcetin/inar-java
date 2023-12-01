@@ -64,4 +64,5 @@ public abstract class GeometricObject implements Comparable<GeometricObject> {
     public abstract double getPerimeter();
 
     public abstract int compareTo(Circle o);
+
 }

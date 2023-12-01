@@ -37,4 +37,5 @@ public class MyStack implements Cloneable {
     public String toString() {
         return "Stack: " + list.toString();
     }
+
 }

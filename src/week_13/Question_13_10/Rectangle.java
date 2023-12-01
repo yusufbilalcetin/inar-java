@@ -43,4 +43,5 @@ public class Rectangle extends GeometricObject implements Comparable<GeometricOb
         return super.toString() + "\nWidth: " + this.width + "\nHeight: " + this.height +
                 "\nArea: " + this.getArea() + "\nPerimeter: " + this.getPerimeter();
     }
+
 }
