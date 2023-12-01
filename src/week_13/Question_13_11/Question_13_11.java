@@ -18,5 +18,4 @@ public class Question_13_11 {
             System.out.println("Octogen is equal to its clone.");
         }
     }
-
 }

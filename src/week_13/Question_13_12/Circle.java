@@ -29,5 +29,4 @@ public class Circle extends GeometricObject {
     public String toString() {
         return super.toString() + "\nArea: " + this.getArea() + "\nPerimeter: " + this.getPerimeter();
     }
-
 }

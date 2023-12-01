@@ -12,5 +12,6 @@ public class Question_13_10 {
 
         System.out.println("Rectange1 is" + (r1.equals(r2) ? "" : " not") + " equal to Rectangle2");
         System.out.println("Rectangle1 is" + (r1.equals(r3) ? "" : " not") + " equal to Rectangle3");
+
     }
 }

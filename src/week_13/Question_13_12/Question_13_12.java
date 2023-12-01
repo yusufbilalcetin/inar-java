@@ -17,5 +17,4 @@ public class Question_13_12 {
         }
         return sum;
     }
-
 }

@@ -17,7 +17,6 @@ public class Rectangle extends GeometricObject {
         return this.width * this.height;
     }
 
-
     @Override
     public double getPerimeter() {
         return 2 * (width + height);

@@ -49,4 +49,5 @@ public class Octogon extends GeometricObject implements Cloneable, Comparable<Oc
     public String toString() {
         return super.toString() + "\nArea: " + this.getArea() + "\nPerimeter: " + this.getPerimeter();
     }
+
 }
