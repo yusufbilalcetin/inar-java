@@ -22,16 +22,16 @@ public class Question_13_13 {
                 System.out.print(", ");
             }
         }
-            System.out.println("\n---------------------------------------");
+        System.out.println("\n---------------------------------------");
 
-            System.out.println("Number of students in course2 :" + course2.getNumberOfStudents());
-            String[] students2 = course2.getStudents();
-            for (int j = 0; j < course2.getNumberOfStudents(); j++) {
-                System.out.print(students2[j]);
-                if (j < course2.getNumberOfStudents() - 1) {
-                    System.out.print(", ");
-                }
+        System.out.println("Number of students in course2 :" + course2.getNumberOfStudents());
+        String[] students2 = course2.getStudents();
+        for (int j = 0; j < course2.getNumberOfStudents(); j++) {
+            System.out.print(students2[j]);
+            if (j < course2.getNumberOfStudents() - 1) {
+                System.out.print(", ");
             }
         }
     }
+}
 
