@@ -22,7 +22,7 @@ public class Question_13_13 {
 
         System.out.println("\n---------------------------------------");
 
-        System.out.println("Number of students in course1 :" + course2.getNumberOfStudents());
+        System.out.println("Number of students in course2 :" + course2.getNumberOfStudents());
         String[] students2 = course2.getStudents();
         for (int i = 0; i < course2.getNumberOfStudents(); i++) {
             System.out.print(students2[i] + ", ");
