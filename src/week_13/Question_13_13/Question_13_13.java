@@ -17,15 +17,21 @@ public class Question_13_13 {
         System.out.println("\nNumber of students in course1 :" + course1.getNumberOfStudents());
         String[] students1 = course1.getStudents();
         for (int i = 0; i < course1.getNumberOfStudents(); i++) {
-            System.out.print(students1[i] + ", ");
+            System.out.print(students1[i]);
+            if (i < course1.getNumberOfStudents() - 1) {
+                System.out.print(", ");
+            }
         }
+            System.out.println("\n---------------------------------------");
 
-        System.out.println("\n---------------------------------------");
-
-        System.out.println("Number of students in course2 :" + course2.getNumberOfStudents());
-        String[] students2 = course2.getStudents();
-        for (int i = 0; i < course2.getNumberOfStudents(); i++) {
-            System.out.print(students2[i] + ", ");
+            System.out.println("Number of students in course2 :" + course2.getNumberOfStudents());
+            String[] students2 = course2.getStudents();
+            for (int j = 0; j < course2.getNumberOfStudents(); j++) {
+                System.out.print(students2[j]);
+                if (j < course2.getNumberOfStudents() - 1) {
+                    System.out.print(", ");
+                }
+            }
         }
     }
-}
+
