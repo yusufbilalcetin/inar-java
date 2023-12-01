@@ -1,7 +1,5 @@
 package week_13.Question_13_08;
 
-import week_13.Question_13_06.Circle;
-
 public class Question_13_08 {
     public static void main(String[] args) throws CloneNotSupportedException {
         MyStack myStack1 = new MyStack();
