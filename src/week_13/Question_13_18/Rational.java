@@ -17,7 +17,6 @@ public class Rational extends Number implements Comparable<Rational> {
         this.numerator = BigInteger.valueOf(((denominator > 0) ? 1 : -1) * numerator / gcd);
         this.denominator = BigInteger.valueOf(Math.abs(denominator) / gcd);
     }
-
     private static long gcd(long numerator, long denominator) {
         numerator = Math.abs(numerator);
         denominator = Math.abs(denominator);

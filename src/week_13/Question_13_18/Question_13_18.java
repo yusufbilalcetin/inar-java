@@ -7,5 +7,6 @@ public class Question_13_18 {
             sum = sum.add(new Rational(i, i + 1));
         }
         System.out.print(sum + " ");
+
     }
 }

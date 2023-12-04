@@ -18,6 +18,5 @@ public class Question_13_17 {
         System.out.println("(" + number1 + ")" + " * " + "(" + number2 + ")" + " = " + number1.multiply(number2));
         System.out.println("(" + number1 + ")" + " / " + "(" + number2 + ")" + " = " + number1.divide(number2));
         System.out.println("|" + number1 + "| -> " + number1.absoluteValue() );
-
     }
 }

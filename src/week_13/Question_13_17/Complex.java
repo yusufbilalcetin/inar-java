@@ -56,6 +56,7 @@ public class Complex extends Number implements Comparable<Complex> {
         return new Complex(result[0], result[1]);
     }
 
+
     public Complex multiply(Complex c) {
         double[] result = new double[2];
         result[0] = this.real * c.real - this.imaginary * c.imaginary;
