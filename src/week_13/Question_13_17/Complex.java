@@ -9,6 +9,10 @@ public class Complex extends Number implements Comparable<Complex> {
         this.imaginary = imaginary;
     }
 
+    public Complex(double real) {
+        this.real = real;
+    }
+
     public double getReal() {
         return real;
     }
