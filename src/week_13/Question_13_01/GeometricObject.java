@@ -39,6 +39,8 @@ public abstract class GeometricObject {
 
     public abstract double getPerimeter();
 
+    public abstract double getArea();
+
     @Override
     public String toString() {
         return "GeometricObject" +
@@ -46,6 +48,4 @@ public abstract class GeometricObject {
                 ", color='" + color + '\'' +
                 ", datecreated=" + datecreated;
     }
-
-    public abstract double getArea();
 }

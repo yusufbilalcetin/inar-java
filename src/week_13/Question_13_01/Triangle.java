@@ -2,9 +2,9 @@ package week_13.Question_13_01;
 
 
 public class Triangle extends GeometricObject {
-    double side1;
-    double side2;
-    double side3;
+    private double side1;
+    private double side2;
+    private double side3;
 
     public Triangle(double side1, double side2, double side3, String color, boolean filled) {
         super(color, filled);
