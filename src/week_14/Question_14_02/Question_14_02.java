@@ -14,8 +14,8 @@ public class Question_14_02 {
         }
         System.out.println("Generated ArrayList:\n " + list);
 
-        Set<Integer> list1 = new TreeSet<>(list);
-        list = new ArrayList<>(list1);
+        Set<Integer> set = new TreeSet<>(list);
+        list = new ArrayList<>(set);
 
         System.out.println("ArrayList after removing duplicates:\n " + list);
     }
