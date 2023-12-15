@@ -1,6 +1,6 @@
 package week_14_18;
 
-public class week_14_18 {
+public class Question_14_18 {
     public static void main(String[] args) {
         ContactManager contactManager = new ContactManager();
         contactManager.addContact("Besim Karabıyık", "1");
